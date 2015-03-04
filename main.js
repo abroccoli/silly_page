@@ -6,6 +6,6 @@ $(document).ready(function() {
   });
 
   $('#text-red').click(function(){
-    $('html').css('font-color', 'red')
+    $('html').css('color', 'red')
   });
 });
