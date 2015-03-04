@@ -6,6 +6,10 @@ $(document).ready(function() {
   });
 
   $('#text-red').click(function(){
-    $('#things').css('color', 'red')
+    $('#flipping').css('color', 'red')
+  });
+
+  $('#flip_it').click(function() {
+    $('#flipping').toggleClass('flipdiv');
   });
 });
